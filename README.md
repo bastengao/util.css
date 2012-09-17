@@ -3,8 +3,13 @@ common-css
 
 ## float
 
-* float: left;  => .f-l
-* float: right; => .f-r
+* .f-l
+
+  float: left;
+
+* .f-r
+
+  float: right;
 
 ## clear
 
