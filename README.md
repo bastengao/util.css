@@ -41,16 +41,20 @@ common-css
 
 ## margin
 
+* __m-\*__
+  
+  m-\* => margin: \*px;
+
+  1. m-0
+  2. m-5
+  3. m-10
+  4. m-20
+  5. m-30
+  6. m-50
+
 * __m-t-\*__
 
   m-t-\* => margin-top: \*px;
-
-  1. m-t-0
-  2. m-t-5
-  3. m-t-10
-  4. m-t-20
-  5. m-t-30
-  6. m-t-50
 
 * __m-b-\*__
 
@@ -63,6 +67,28 @@ common-css
 * __m-r-\*__
 
   m-r-\* => margin-right: \*px;  
+
+## padding
+
+* __p-\*__
+
+  p-\* => padding: \*px;
+
+* __p-t-\*__
+
+ p-t-\* => padding-top: \*px;
+
+* __p-b-\*__
+
+  p-b-\* => padding-bottom: \*px;
+
+* __p-l-\*__
+
+  p-l-\* => padding-left: \*px;
+
+* __p-r-\*__
+
+  p-r-\* => padding-right: \*px;
 
 ## color
 
