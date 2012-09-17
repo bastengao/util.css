@@ -41,7 +41,7 @@ common-css
 
 ## margin
 
-* **m-t-\***
+* __m-t-\*__
 
   m-t-\* => margin-top: \*px;
 
@@ -52,7 +52,7 @@ common-css
   5. m-t-30
   6. m-t-50
 
-* **m-b-\***
+* __m-b-\*__
 
   m-b-\* => margin-bottom: \*px;
 
