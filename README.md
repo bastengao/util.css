@@ -3,25 +3,25 @@ common-css
 
 ## float
 
-* *.f-l*
+* **.f-l**
 
   float: left;
 
-* *.f-r*
+* **.f-r**
 
   float: right;
 
 ## clear
 
-* *.clear*
+* **.clear**
 
   clear: both;  
 
-* *.clear-l*
+* **.clear-l**
 
   clear: left;  
 
-* *.clear-r*
+* **.clear-r**
 
   clear: right; 
 
