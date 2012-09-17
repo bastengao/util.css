@@ -56,6 +56,55 @@ common-css
 
   m-b-\* => margin-bottom: \*px;
 
+* __m-l-\*__
+
+  m-l-\* => margin-left: \*px;
+
+* __m-r-\*__
+
+  m-r-\* => margin-right: \*px;  
+
 ## color
 
+* __red__
+  
+  color: red;
+
+* __green__
+  
+  color: green;
+
+* __blue__
+
+  color: blue;
+
+* __white__
+  
+  color: white;
+
+* __black__
+
+  color: black;
+
 ## background color
+
+* __b-red__
+  
+  background-color: red;
+
+* __b-green__
+  
+  background-color: green;
+
+* __b-blue__
+
+  background-color: blue;
+
+* __b-white__
+  
+  background-color: white;
+
+* __b-black__
+
+  background-color: black;
+
