@@ -3,19 +3,27 @@ common-css
 
 ## float
 
-* .f-l
+* *.f-l*
 
   float: left;
 
-* .f-r
+* *.f-r*
 
   float: right;
 
 ## clear
 
-* clear: both;  => .clear
-* clear: left;  => .clear-l
-* clear: right; => .clear-r
+* *.clear*
+
+  clear: both;  
+
+* *.clear-l*
+
+  clear: left;  
+
+* *.clear-r*
+
+  clear: right; 
 
 ## text align
 
