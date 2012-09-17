@@ -1,21 +1,21 @@
 common-css
 ==========
 
-# float
+## float
 
 * float: left;  => .f-l
 * float: right; => .f-r
 
-# clear
+## clear
 
 * clear: both;  => .clear
 * clear: left;  => .clear-l
 * clear: right; => .clear-r
 
-# text align
+## text align
 
-# margin
+## margin
 
-# color
+## color
 
-# background color
+## background color
