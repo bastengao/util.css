@@ -11,3 +11,11 @@ common-css
 * clear: both;  => .clear
 * clear: left;  => .clear-l
 * clear: right; => .clear-r
+
+# text align
+
+# margin
+
+# color
+
+# background color
