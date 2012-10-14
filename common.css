@@ -286,7 +286,7 @@
 	color: red;
 }
 
-.b-red{
+.bg-red{
 	background-color: red;
 }
 
@@ -294,7 +294,7 @@
 	color: blue;
 }
 
-.b-blue{
+.bg-blue{
 	background-color: blue;
 }
 
@@ -302,7 +302,7 @@
 	color: green;
 }
 
-.b-green{
+.bg-green{
 	background-color: green;
 }
 
@@ -310,14 +310,14 @@
 	color:white;
 }
 
-.b-white{
+.bg-white{
 	background-color: white;
 }
 .black{
 	color: black;
 }
 
-.b-black{
+.bg-black{
 	background-color: black;
 }
 
