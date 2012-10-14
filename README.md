@@ -114,23 +114,23 @@ common-css
 
 ## background color
 
-* __b-red__
+* __bg-red__
   
   background-color: red;
 
-* __b-green__
+* __bg-green__
   
   background-color: green;
 
-* __b-blue__
+* __bg-blue__
 
   background-color: blue;
 
-* __b-white__
+* __bg-white__
   
   background-color: white;
 
-* __b-black__
+* __bg-black__
 
   background-color: black;
 
