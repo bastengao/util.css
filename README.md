@@ -50,7 +50,8 @@ common-css
   3. m-10
   4. m-20
   5. m-30
-  6. m-50
+  6. m-40
+  7. m-50
 
 * __m-t-\*__
 
@@ -112,6 +113,35 @@ common-css
 
   color: black;
 
+* __gray__
+
+  color: gray;
+
+* __gray-8__
+
+  color: #888;
+
+* __gray-9__
+
+  color: #999;
+
+* __gray-a__
+
+  color: #aaa;
+
+* __gray-b__
+
+  color: #bbb;
+
+* __gray-c__
+
+  color: #ccc;
+
+* __gray-d__
+
+  color: #ddd;
+
+
 ## background color
 
 * __bg-red__
@@ -134,3 +164,84 @@ common-css
 
   background-color: black;
 
+* __bg-gray__
+
+  background-color: gray;
+
+* __bg-gray-8__
+
+  background-color: #888;
+
+* __bg-gray-9__
+
+  background-color: #999;
+
+* __bg-gray-a__
+
+  background-color: #aaa;
+
+* __bg-gray-b__
+
+  background-color: #bbb;
+
+* __bg-gray-c__
+
+  background-color: #ccc;
+
+* __bg-gray-d__
+
+  background-color: #ddd;
+
+## fonts
+
+* __bold/f-b__
+
+  font-weight: bold;
+
+* __f-n__
+
+  font-weight: normal;
+
+## texts
+
+* __t-d-none__
+
+  :hover
+  text-decoration: none;
+
+* __t-d-ul__
+
+  text-decoration: underline;
+
+## displays
+
+* __inline/il/d-il__
+
+  display: inline;
+
+* __block/blk/d-blk__
+
+  display: block;
+
+* __inlin-block/il-blk/d-il-blk__
+
+  display: inlineblock;
+
+* __hide/d-none__
+
+  display: none;
+
+## positions
+
+* __position-fixed/p-f__
+
+  position: fixed;
+
+* __position-absolute/p-a__
+
+  position: absolute;
+
+* __position-status/p-s__
+
+  position: static;
+  
