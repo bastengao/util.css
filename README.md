@@ -53,6 +53,21 @@ common-css
   6. m-40
   7. m-50
 
+* __m-horizontal-auto/m-h-auto/m-auto
+
+  margin-left: auto;
+  margin-right: auto;
+
+* __m-h-*__
+
+  margin-left:  *px;
+  margin-rigth: *px;
+
+* __m-v-*__
+
+  margin-top:    *px;
+  margin-bottom: *px;
+
 * __m-t-\*__
 
   m-t-\* => margin-top: \*px;
@@ -74,6 +89,16 @@ common-css
 * __p-\*__
 
   p-\* => padding: \*px;
+
+* __p-h-*__
+
+  padding-left:  *px;
+  padding-rigth: *px;
+
+* __p-v-*__
+
+  padding-top:    *px;
+  padding-bottom: *px;
 
 * __p-t-\*__
 
