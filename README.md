@@ -53,7 +53,7 @@ common-css
   6. m-40
   7. m-50
 
-* __m-horizontal-auto/m-h-auto/m-auto
+* __m-horizontal-auto/m-h-auto/m-auto__
 
   margin-left: auto;
   margin-right: auto;
