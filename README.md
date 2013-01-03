@@ -1,6 +1,8 @@
 common-css
 ==========
 
+常用样式合集, common style collection.
+
 ## float
 
 * **.f-l**
