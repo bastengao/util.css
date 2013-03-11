@@ -584,6 +584,13 @@
     background-color: #ddd;
 }
 
+.gray-e {
+    color: #eee;
+}
+
+.bg-gray-e {
+    background-color: #eee;
+}
 
 /* fonts */
 
