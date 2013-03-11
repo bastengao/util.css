@@ -168,6 +168,10 @@ common-css
 
   color: #ddd;
 
+* __gray-e__
+
+  color: #eee;
+
 
 ## background color
 
@@ -218,6 +222,10 @@ common-css
 * __bg-gray-d__
 
   background-color: #ddd;
+
+* __bg-gray-e__
+
+  background-color: #eee;
 
 ## fonts
 

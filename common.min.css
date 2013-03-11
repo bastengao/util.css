@@ -1,5 +1,5 @@
 /**
-* common-css v0.1.2
+* common-css v0.1.3-beta
 * https://bastengao.github.com/common-css/
 */
 .f-l{float:left;}
@@ -133,6 +133,8 @@
 .bg-gray-c{background-color:#ccc;}
 .gray-d{color:#ddd;}
 .bg-gray-d{background-color:#ddd;}
+.gray-e{color:#eee;}
+.bg-gray-e{background-color:#eee;}
 .bold,.f-bold{font-weight:700;}
 .f-n{font-weight:400;}
 .t-d-none,.t-d-none:hover{text-decoration:none;}
