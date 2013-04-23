@@ -648,14 +648,19 @@
 /* positions */
 
 
-.position-fixed,
-.p-f {
-    position: fixed;
-}
-
 .position-absolute,
 .p-a {
     position: absolute;
+}
+
+.position-relative,
+.p-r {
+    position: relative;
+}
+
+.position-fixed,
+.p-f {
+    position: fixed;
 }
 
 .position-static,
