@@ -1,0 +1,25 @@
+{
+  "name": "common.css",
+  "version": "0.1.3",
+  "homepage": "https://github.com/bastengao/common.css",
+  "authors": [
+    "bastengao <bastengao@gmail.com>"
+  ],
+  "description": "Common style collection",
+  "main": [
+    "common.scss"
+    "dist/common.css",
+  ],
+  "keywords": [
+    "common",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

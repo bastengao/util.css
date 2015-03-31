@@ -1,0 +1,87 @@
+@each $size in 0, 5, 10, 15, 20, 30, 40, 50, 100, 150, 200, 250, 300 {
+  .m-#{$size} {
+    margin: #{$size}px;
+  }
+
+  .m-v-#{$size} {
+    margin-top: #{$size}px;
+    margin-bottom: #{$size}px;
+  }
+
+  .m-h-#{$size} {
+    margin-left: #{$size}px;
+    margin-right: #{$size}px;
+  }
+
+  .p-#{$size} {
+    padding: #{$size}px;
+  }
+
+  .p-v-#{$size} {
+    padding-top: #{$size}px;
+    padding-bottom: #{$size}px;
+  }
+
+  .p-h-#{$size} {
+    padding-left: #{$size}px;
+    padding-right: #{$size}px;
+  }
+}
+
+.f-l {
+  float: left;
+}
+
+.f-r {
+  float: right;
+}
+
+.t-a-l {
+  text-align: left;
+}
+
+
+.t-a-r {
+  text-align: right;
+}
+
+.t-a-c {
+  text-align: center;
+}
+
+.bold,
+.f-b {
+  font-weight: bold;
+}
+
+.f-n {
+  font-weight: normal;
+}
+
+
+@each $color in red, blue, green, gray, white, black {
+  .#{$color} {
+    color: #{color};
+  }
+
+  .bg-#{$color} {
+    backgroun-color: #{color};
+  }
+}
+
+
+.p-a {
+    position: absolute;
+}
+
+.p-r {
+    position: relative;
+}
+
+.p-f {
+    position: fixed;
+}
+
+.p-s {
+    position: static;
+}
