@@ -1,13 +1,21 @@
 var gulp = require('gulp');
+var rename    = require('gulp-regex-rename');
 var sass = require('gulp-sass');
 var tar = require('gulp-tar');
 var zip = require('gulp-zip');
 var gzip = require('gulp-gzip');
 
-gulp.task('default', function () {
+gulp.task('sass', function () {
     gulp.src('./*.scss')
         .pipe(sass())
         .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('minify', function () {
+    gulp.src('./*.scss')
+        .pipe(sass({outputStyle: 'compressed', sourceComments: true}))
+        .pipe(rename(/\.css$/, '.min.css'))
+        .pipe(gulp.dest('./dist/'));
 });
 
 var zipSource = ['./util.scss',
@@ -17,7 +25,7 @@ var zipSource = ['./util.scss',
               'bower.json',
               'package.json',
               'gulpfile.js'
-            ]
+            ];
 
 gulp.task('zip', function() {
     gulp.src(zipSource)
@@ -31,3 +39,5 @@ gulp.task('gzip', function() {
         .pipe(gzip())
         .pipe(gulp.dest('.'));
 });
+
+gulp.task('default', ['sass', 'minify']);
