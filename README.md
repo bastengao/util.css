@@ -1,7 +1,25 @@
-common-css
+util.css
 ==========
 
 常用样式合集, common style collection.
+
+# Install
+
+bower
+
+```
+bower install util.css
+```
+
+rails-assets
+
+```
+source 'https://rails-assets.org' do
+  gem 'rails-assets-util.css'
+end
+```
+
+# Usage
 
 ## float
 
@@ -25,7 +43,7 @@ common-css
 
 * **.clear-r**
 
-  clear: right; 
+  clear: right;
 
 ## text align
 
@@ -44,7 +62,7 @@ common-css
 ## margin
 
 * __m-\*__
-  
+
   m-\* => margin: \*px;
 
   1. m-0
@@ -121,11 +139,11 @@ common-css
 ## color
 
 * __red__
-  
+
   color: red;
 
 * __green__
-  
+
   color: green;
 
 * __blue__
@@ -133,7 +151,7 @@ common-css
   color: blue;
 
 * __white__
-  
+
   color: white;
 
 * __black__
@@ -176,11 +194,11 @@ common-css
 ## background color
 
 * __bg-red__
-  
+
   background-color: red;
 
 * __bg-green__
-  
+
   background-color: green;
 
 * __bg-blue__
@@ -188,7 +206,7 @@ common-css
   background-color: blue;
 
 * __bg-white__
-  
+
   background-color: white;
 
 * __bg-black__
@@ -279,4 +297,3 @@ common-css
 * __position-status/p-s__
 
   position: static;
-  
