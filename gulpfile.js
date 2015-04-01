@@ -10,8 +10,8 @@ gulp.task('default', function () {
         .pipe(gulp.dest('./dist'));
 });
 
-var zipSource = ['./common.scss',
-              'dist/common.css',
+var zipSource = ['./util.scss',
+              'dist/util.css',
               'README.md',
               'LICENCES',
               'bower.json',
