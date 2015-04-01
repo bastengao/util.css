@@ -7,8 +7,8 @@
   ],
   "description": "Common style collection",
   "main": [
-    "common.scss"
-    "dist/common.css",
+    "common.scss",
+    "dist/common.css"
   ],
   "keywords": [
     "common",
