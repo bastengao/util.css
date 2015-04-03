@@ -5,6 +5,22 @@
     margin: #{$size}px;
   }
 
+  .m-t-#{$size} {
+    margin-top: #{$size}px;
+  }
+
+  .m-b-#{$size} {
+    margin-bottom: #{$size}px;
+  }
+
+  .m-l-#{$size} {
+    margin-left: #{$size}px;
+  }
+
+  .m-r-#{$size} {
+    margin-right: #{$size}px;
+  }
+
   .m-v-#{$size} {
     margin-top: #{$size}px;
     margin-bottom: #{$size}px;
@@ -17,6 +33,22 @@
 
   .p-#{$size} {
     padding: #{$size}px;
+  }
+
+  .p-t-#{$size} {
+    padding-top: #{$size}px;
+  }
+
+  .p-b-#{$size} {
+    padding-bottom: #{$size}px;
+  }
+
+  .p-l-#{$size} {
+    padding-left: #{$size}px;
+  }
+
+  .p-r-#{$size} {
+    padding-right: #{$size}px;
   }
 
   .p-v-#{$size} {
@@ -67,7 +99,7 @@
   }
 
   .bg-#{$color} {
-    backgroun-color: #{color};
+    background-color: #{color};
   }
 }
 
