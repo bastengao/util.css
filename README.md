@@ -19,33 +19,40 @@ source 'https://rails-assets.org' do
 end
 ```
 
+# Example
+
+Using `util.css` instead of inline styles.
+
+```html
+<div class="f-l">
+  <div class="m-h-10">
+    <a class="red f-b">link</a>
+  </div>
+</div>
+```
+
+```html
+<div style="float: left;">
+  <div style="margin-left: 10px; margin-right: 10px;">
+    <a style="color: red; font-weight: bold;">link</a>
+  </div>
+</div>
+```
+
+
 # Usage
 
-## float
+### float
 
-* **.f-l**
+* **f-l**
 
   float: left;
 
-* **.f-r**
+* **f-r**
 
   float: right;
 
-## clear
-
-* **.clear**
-
-  clear: both;  
-
-* **.clear-l**
-
-  clear: left;  
-
-* **.clear-r**
-
-  clear: right;
-
-## text align
+### text align
 
 * **t-a-l**
 
@@ -59,193 +66,64 @@ end
 
   text-align: center;
 
-## margin
+### margin & padding
 
-* __m-\*__
+Size could be 0, 5, 10, 15, 20, 30, 40, 50, 100, 150, 200, 250, 300.
 
-  m-\* => margin: \*px;
+* __m-{n}__
 
-  1. m-0
-  2. m-5
-  3. m-10
-  4. m-20
-  5. m-30
-  6. m-40
-  7. m-50
+  m-{n} => margin: {n}px;
 
-* __m-horizontal-auto/m-h-auto/m-auto__
+* __m-h-auto__
 
   margin-left: auto;
   margin-right: auto;
 
-* __m-h-*__
+* __m-h-\*__
 
-  margin-left:  *px;
-  margin-rigth: *px;
+  margin-left:  \*px;
+  margin-rigth: \*px;
 
-* __m-v-*__
+* __m-v-\*__
 
-  margin-top:    *px;
-  margin-bottom: *px;
+  margin-top:    \*px;
+  margin-bottom: \*px;
 
 * __m-t-\*__
 
-  m-t-\* => margin-top: \*px;
+  margin-top: \*px;
 
 * __m-b-\*__
 
-  m-b-\* => margin-bottom: \*px;
+  margin-bottom: \*px;
 
 * __m-l-\*__
 
-  m-l-\* => margin-left: \*px;
+  margin-left: \*px;
 
 * __m-r-\*__
 
-  m-r-\* => margin-right: \*px;  
+  margin-right: \*px;  
 
-## padding
+Except `m-h-auto`, padding usage is same with margin, such as `p-10` or `p-b-20`.
 
-* __p-\*__
+### color & background color
 
-  p-\* => padding: \*px;
+Color could be red, green, blue, white, black and gray.
 
-* __p-h-*__
+`.{color}` will be `color: {color};`
 
-  padding-left:  *px;
-  padding-rigth: *px;
+Example
 
-* __p-v-*__
-
-  padding-top:    *px;
-  padding-bottom: *px;
-
-* __p-t-\*__
-
- p-t-\* => padding-top: \*px;
-
-* __p-b-\*__
-
-  p-b-\* => padding-bottom: \*px;
-
-* __p-l-\*__
-
-  p-l-\* => padding-left: \*px;
-
-* __p-r-\*__
-
-  p-r-\* => padding-right: \*px;
-
-## color
-
-* __red__
+* red
 
   color: red;
 
-* __green__
-
-  color: green;
-
-* __blue__
-
-  color: blue;
-
-* __white__
-
-  color: white;
-
-* __black__
-
-  color: black;
-
-* __gray__
-
-  color: gray;
-
-* __gray-8__
-
-  color: #888;
-
-* __gray-9__
-
-  color: #999;
-
-* __gray-a__
-
-  color: #aaa;
-
-* __gray-b__
-
-  color: #bbb;
-
-* __gray-c__
-
-  color: #ccc;
-
-* __gray-d__
-
-  color: #ddd;
-
-* __gray-e__
-
-  color: #eee;
-
-
-## background color
-
-* __bg-red__
-
-  background-color: red;
-
-* __bg-green__
+* bg-green
 
   background-color: green;
 
-* __bg-blue__
-
-  background-color: blue;
-
-* __bg-white__
-
-  background-color: white;
-
-* __bg-black__
-
-  background-color: black;
-
-* __bg-gray__
-
-  background-color: gray;
-
-* __bg-gray-8__
-
-  background-color: #888;
-
-* __bg-gray-9__
-
-  background-color: #999;
-
-* __bg-gray-a__
-
-  background-color: #aaa;
-
-* __bg-gray-b__
-
-  background-color: #bbb;
-
-* __bg-gray-c__
-
-  background-color: #ccc;
-
-* __bg-gray-d__
-
-  background-color: #ddd;
-
-* __bg-gray-e__
-
-  background-color: #eee;
-
-## fonts
+### fonts
 
 * __bold/f-b__
 
@@ -255,45 +133,16 @@ end
 
   font-weight: normal;
 
-## texts
+### positions
 
-* __t-d-none__
-
-  :hover
-  text-decoration: none;
-
-* __t-d-ul__
-
-  text-decoration: underline;
-
-## displays
-
-* __inline/il/d-il__
-
-  display: inline;
-
-* __block/blk/d-blk__
-
-  display: block;
-
-* __inlin-block/il-blk/d-il-blk__
-
-  display: inlineblock;
-
-* __hide/d-none__
-
-  display: none;
-
-## positions
-
-* __position-fixed/p-f__
+* __p-f__
 
   position: fixed;
 
-* __position-absolute/p-a__
+* __p-a__
 
   position: absolute;
 
-* __position-status/p-s__
+* __p-s__
 
   position: static;
