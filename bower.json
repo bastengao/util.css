@@ -6,11 +6,7 @@
     "bastengao <bastengao@gmail.com>"
   ],
   "description": "Common style collection",
-  "main": [
-    "util.scss",
-    "dist/util.css",
-    "dist/util.min.css"
-  ],
+  "main": [ "util.scss" ],
   "keywords": [
     "common",
     "css"
