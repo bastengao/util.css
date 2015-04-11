@@ -1,15 +1,15 @@
 {
   "name": "util.css",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/bastengao/common.css",
   "authors": [
     "bastengao <bastengao@gmail.com>"
   ],
   "description": "Common style collection",
   "main": [
-    "common.scss",
-    "dist/common.css",
-    "dist/common.min.css"
+    "util.scss",
+    "dist/util.css",
+    "dist/util.min.css"
   ],
   "keywords": [
     "common",
@@ -20,6 +20,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "gulpfile.js",
     "test",
     "tests"
   ]
