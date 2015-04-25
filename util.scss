@@ -1,4 +1,4 @@
-/* common.css v0.1.5 https://github.com/bastengao/common.css */
+/* common.css v0.1.6 https://github.com/bastengao/common.css */
 
 @each $size in 0, 5, 10, 15, 20, 30, 40, 50, 100, 150, 200, 250, 300 {
   .m-#{$size} {
@@ -70,11 +70,11 @@
 
 @each $color in red, blue, green, gray, white, black {
   .#{$color} {
-    color: #{color};
+    color: #{$color};
   }
 
   .bg-#{$color} {
-    background-color: #{color};
+    background-color: #{$color};
   }
 }
 
