@@ -19,6 +19,12 @@ source 'https://rails-assets.org' do
 end
 ```
 
+Import util.css in `application.scss`
+
+```scss
+@import 'util.css.scss';
+```
+
 # Example
 
 Using `util.css` instead of inline styles.
