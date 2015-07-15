@@ -70,11 +70,11 @@
 
 @each $color in red, blue, green, gray, white, black {
   .#{$color} {
-    color: #{$color};
+    color: $color;
   }
 
   .bg-#{$color} {
-    background-color: #{$color};
+    background-color: $color;
   }
 }
 
