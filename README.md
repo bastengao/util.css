@@ -22,7 +22,7 @@ end
 Import util.css in `application.scss`
 
 ```scss
-@import 'util.css.scss';
+@import 'util.css/util';
 ```
 
 # Example
